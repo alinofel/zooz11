@@ -210,75 +210,71 @@ end
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
-    enabled_plugins = {
-   "admin", 
-216 	"ali_nofel", 
-217 	"addreplay", 
-218 	"addsudo", 
-219 	"all", 
-220 	"anti_spam", 
-221 	"arabic_lock", 
-222 	"badword", 
-223 	"banhammer", 
-224 	"broadcast", 
-225 	"delete", 
-226 	"deletekick", 
-227 	"get", 
-228 	"getfile", 
-229 	"getlink", 
-230 	"hello", 
-231 	"help", 
-232 	"image", 
-233 	"info", 
-234 	"inrealm", 
-235 	"insta", 
-236 	"invite", 
-237 	"isup", 
-238 	"kickme", 
-239 	"leave_ban", 
-240 	"lock_media", 
-241 	"lock_bot", 
-242 	"lock_fwd", 
-243 	"M_zooz", 
-244 	"map", 
-245 	"me", 
-246 	"msg_checks", 
-247 	"newgroups", 
-248 	"onservice", 
-249 	"owners", 
-250 	"plugins", 
-251 	"set", 
-252 	"sethello", 
-253 	"stats", 
-254 	"sticker", 
-255 	"supergroup", 
-256 	"textphoto", 
-257 	"tgto", 
-258 	"voice", 
-259 	"whitelist", 
-260 	"zooz", 
-261 	"zooz_a", 
-262 	"zooz1", 
-263 	"zooz2", 
-264 	"zooz3", 
-265 	 
-266     }, 
-267     sudo_users = {146523692,0,tonumber(our_id)},--Sudo users 
-268     moderation = {data = 'data/moderation.json'}, 
-269     about_text = [[zooz11 v1 
-270 An advanced administration bot based on TG-CLI written in Lua 
-271  
-272 https://github.com/alinofel/zooz11 
-273  
-274 Admins 
-275 @ali_nofel [Founder] 
-276  
-277 Special thanks to 
-278 awkward_potato 
-279 Siyanew 
-280 topkecleon 
-281 Vamptacus 
-
+     enabled_plugins = {
+	"admin",
+	"ali_nofel",
+	"addreplay",
+	"addsudo",
+	"all",
+	"anti_spam",
+	"arabic_lock",
+	"badword",
+	"banhammer",
+	"broadcast",
+	"delete",
+	"deletekick",
+	"get",
+	"getfile",
+	"getlink",
+	"hello",
+	"help",
+	"image",
+	"info",
+	"inrealm",
+	"insta",
+	"invite",
+	"isup",
+	"kickme",
+	"leave_ban",
+	"lock_media",
+	"lock_bot",
+	"lock_fwd",
+	"M_zooz",
+	"map",
+	"me",
+	"msg_checks",
+	"newgroups",
+	"onservice",
+	"owners",
+	"plugins",
+	"set",
+	"sethello",
+	"stats",
+	"sticker",
+	"supergroup",
+	"textphoto",
+	"tgto",
+	"voice",
+	"whitelist",
+	"zooz",
+	"zooz_a",
+	"zooz1",
+	"zooz2",
+	"zooz3",
+	
+    },
+    sudo_users = {146523692,0,tonumber(our_id)},--Sudo users
+    moderation = {data = 'data/moderation.json'},
+    about_text = [[zooz v1
+An advanced administration bot based on TG-CLI written in Lua
+https://github.com/alinofel/zooz11
+Admins
+@ali_nofel [Founder]
+Special thanks to
+awkward_potato
+Siyanew
+topkecleon
+Vamptacus
 ]],
     help_text_realm = [[
 Realm Commands:
