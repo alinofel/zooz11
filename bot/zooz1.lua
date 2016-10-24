@@ -211,87 +211,73 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "admin",
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
-    "supergroup",
-    "whitelist",
-    "msg_checks",
-    "cleanmsg",
-    "helps.pv",
-    "me",
-    "plugins",
-    "rebot",
-    "short_link",
-    "redis",
-    "list1",
-    "help",
-    "list",
-    "list3",
-    "writer",
-    "lock_emoji",
-    "lock_english",
-    "lock_badword",
-    "lock_fwd",
-    "lock_join",
-    "lock_media",
-    "lock_reply",
-    "lock_tag",
-    "lock_username",
-    "set_type",
-    "serverinfo",
-    "welcome",
-    "dowelcome",
-    "lock_badword",
-    "azan",
-    "filter",
-    "music_eng",
-    "short_link",
-    "tag_english",
-    "translate",
-    "infoeng",
-    "textphoto",
-    "image23",
-    "sticker23",
-    "instagram",
-    "voice",
-    "bye",
-    "dobye",
-    "weather",
-    "time",
-    "echo",
-    "send",
-    "linkpv",
-    "sudolist"
-    },
-    sudo_users = {124406196},--Sudo users
-    moderation = {data = 'data/moderation.json'},
-    about_text = [[DevPoint v1
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/DevPointTeam/DevPoint
-
-Admins
-@TH3_GHOST
-@MOHAMMED_ZEDAN
-Channel DEV POINT TEAM
-@DevPointTeam
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [English]
+   "admin", 
+216 	"ali_nofel", 
+217 	"addreplay", 
+218 	"addsudo", 
+219 	"all", 
+220 	"anti_spam", 
+221 	"arabic_lock", 
+222 	"badword", 
+223 	"banhammer", 
+224 	"broadcast", 
+225 	"delete", 
+226 	"deletekick", 
+227 	"get", 
+228 	"getfile", 
+229 	"getlink", 
+230 	"hello", 
+231 	"help", 
+232 	"image", 
+233 	"info", 
+234 	"inrealm", 
+235 	"insta", 
+236 	"invite", 
+237 	"isup", 
+238 	"kickme", 
+239 	"leave_ban", 
+240 	"lock_media", 
+241 	"lock_bot", 
+242 	"lock_fwd", 
+243 	"M_zooz", 
+244 	"map", 
+245 	"me", 
+246 	"msg_checks", 
+247 	"newgroups", 
+248 	"onservice", 
+249 	"owners", 
+250 	"plugins", 
+251 	"set", 
+252 	"sethello", 
+253 	"stats", 
+254 	"sticker", 
+255 	"supergroup", 
+256 	"textphoto", 
+257 	"tgto", 
+258 	"voice", 
+259 	"whitelist", 
+260 	"zooz", 
+261 	"zooz_a", 
+262 	"zooz1", 
+263 	"zooz2", 
+264 	"zooz3", 
+265 	 
+266     }, 
+267     sudo_users = {146523692,0,tonumber(our_id)},--Sudo users 
+268     moderation = {data = 'data/moderation.json'}, 
+269     about_text = [[zooz1 v1 
+270 An advanced administration bot based on TG-CLI written in Lua 
+271  
+272 https://github.com/alinofel/zooz1 
+273  
+274 Admins 
+275 @ali_nofel [Founder] 
+276  
+277 Special thanks to 
+278 awkward_potato 
+279 Siyanew 
+280 topkecleon 
+281 Vamptacus 
 
 ]],
     help_text_realm = [[
