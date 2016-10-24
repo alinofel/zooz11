@@ -8,7 +8,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=DevPoint
+BOT=zooz11
 RELOADTIME=10
 
 function tmux_mode {
@@ -27,14 +27,14 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1  @DevPointTeam     $f2 @DevPointTeam     $f3  @DevPointTeam   $f4  @DevPointTeam    $f5 @DevPointTeam    $f6 @DevPointTeam  $rst
+ $f1  @zooz11     $f2 @zooz11     $f3  @zooz11   $f4  @zooz11    $f5 @zooz11    $f6 @zooz11  $rst
 
 EOF
-echo -e "                \e[100m                DevPoint script           \e[00;37;40m"
-echo -e "               \e[01;34m                 By Aziz                \e[00;37;40m"
+echo -e "                \e[100m                zooz11 script           \e[00;37;40m"
+echo -e "               \e[01;34m                 By ali-nofel                \e[00;37;40m"
 echo ""
 cat << EOF
- $bld$f1 @DevPointTeam   $f2 @DevPointTeam    $f3  @DevPointTeam    $f4 @DevPointTeam   $f5 @DevPointTeam    $f6  @DevPointTeam  $rst
+ $bld$f1 @zooz11   $f2 @zooz11    $f3  @zooz11    $f4 @zooz11   $f5 @zooz11    $f6  @zooz11  $rst
 
 
 EOF
@@ -55,9 +55,9 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m     > Channel : @DevPointTeam                         \033[0;00m"
-echo -e "\033[38;5;208m     > Developer : @TH3_GHOST                        \033[0;00m"
-echo -e "\033[38;5;208m     > Bot ID : @SuperDevPoint                         \033[0;00m"
+echo -e "\033[38;5;208m     > Channel : @zooz11                         \033[0;00m"
+echo -e "\033[38;5;208m     > Developer : @ali_nofel                        \033[0;00m"
+echo -e "\033[38;5;208m     > Bot ID : @zooz11                         \033[0;00m"
 echo -e "\033[38;5;208m     > Github : GitHub.com/alinofel/zooz11      \033[0;00m"
 echo -e "\033[38;5;208m                                                   \033[0;00m"
 
@@ -173,14 +173,14 @@ bld=$'\e[1m'
 rst=$'\e[0m'
 
 cat << EOF
- $f1  @DevPointTeam     $f2 @DevPointTeam     $f3  @DevPointTeam   $f4  @DevPointTeam    $f5 @DevPointTeam    $f6 @DevPointTeam  $rst
+ $f1  @zooz11     $f2 @zooz11     $f3  @zooz11   $f4  @zooz11    $f5 @zooz11    $f6 @zooz11  $rst
 
 EOF
-echo -e "                \e[100m                DevPoint script           \e[00;37;40m"
+echo -e "                \e[100m                zooz11 script           \e[00;37;40m"
 echo -e "               \e[01;34m                 By Aziz                \e[00;37;40m"
 echo ""
 cat << EOF
- $bld$f1 @DevPointTeam   $f2 @DevPointTeam    $f3  @DevPointTeam    $f4 @DevPointTeam   $f5 @DevPointTeam    $f6  @DevPointTeam  $rst
+ $bld$f1 @zooz11   $f2 @zooz11    $f3  @zooz11    $f4 @zooz11   $f5 @zooz11    $f6  @zooz11  $rst
 
 
 EOF
@@ -485,7 +485,7 @@ echo ""
 echo -e "\033[38;5;208m     > Channel : @DevPointTeam                         \033[0;00m"
 echo -e "\033[38;5;208m     > Developer : @TH3_GHOST                        \033[0;00m"
 echo -e "\033[38;5;208m     > Bot ID : @SuperDevPoint                         \033[0;00m"
-echo -e "\033[38;5;208m     > Github : GitHub.com/DevPointTeam/DevPoint      \033[0;00m"
+echo -e "\033[38;5;208m     > Github : GitHub.com/alinofel/zooz11      \033[0;00m"
 echo -e "\033[38;5;208m                                                   \033[0;00m"
 echo ""
 	exit 1
