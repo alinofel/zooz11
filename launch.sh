@@ -131,5 +131,6 @@ else
    echo -e "     > Github : GitHub.com/alinofel/zooz11     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/zooz11.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/zooz.lua -l 1 -E $@
 fi
+
