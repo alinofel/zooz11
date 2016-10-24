@@ -265,10 +265,10 @@ function create_config( )
 266     }, 
 267     sudo_users = {146523692,0,tonumber(our_id)},--Sudo users 
 268     moderation = {data = 'data/moderation.json'}, 
-269     about_text = [[zooz1 v1 
+269     about_text = [[zooz11 v1 
 270 An advanced administration bot based on TG-CLI written in Lua 
 271  
-272 https://github.com/alinofel/zooz1 
+272 https://github.com/alinofel/zooz11 
 273  
 274 Admins 
 275 @ali_nofel [Founder] 
