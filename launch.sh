@@ -54,8 +54,7 @@ install_rocks() {
   fi
 
   ./.luarocks/bin/luarocks install luaexpat
-  RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
+  RET=$?; if [ $RET -ne 0 ];    then echo "Error. Exiting."; exit $RET;
   fi
 
   ./.luarocks/bin/luarocks install redis-lua
@@ -65,9 +64,7 @@ install_rocks() {
 
   ./.luarocks/bin/luarocks install lua-cjson
   RET=$?; if [ $RET -ne 0 ];
-    then echo "Error. Exiting."; exit $RET;
-  fi
-
+    then echo "Error. Exiting."; exit $RET;  fi
   ./.luarocks/bin/luarocks install fakeredis
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
@@ -77,7 +74,6 @@ install_rocks() {
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
   fi
-
   ./.luarocks/bin/luarocks install feedparser
   RET=$?; if [ $RET -ne 0 ];
     then echo "Error. Exiting."; exit $RET;
@@ -88,7 +84,6 @@ install_rocks() {
     then echo "Error. Exiting."; exit $RET;
   fi
 }
-
 install() {
   git pull
   git submodule update --init --recursive
@@ -136,5 +131,5 @@ else
    echo -e "     > Github : GitHub.com/DevPointTeam/DevPoint     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/devpoint.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/zooz11.lua -l 1 -E $@
 fi
